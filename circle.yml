@@ -1,0 +1,10 @@
+# This file tells Circle CI (http://circleci.com) how to run tests on this
+# projects. We need Docker, and once we have that installed, we can run
+# ./lint.sh
+machine:
+  services:
+    - docker
+
+test:
+  override:
+    - ./lint.sh

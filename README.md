@@ -22,3 +22,14 @@ If you want to lint your code changes using a continuous integration server such
 This project itself is being checked by Circle CI and here are the results:
 
 [![CircleCI](https://circleci.com/gh/dcycle/lets-lint.svg?style=svg)](https://circleci.com/gh/dcycle/lets-lint)
+
+Linters used
+-----
+
+We are using the following Dockerized linters:
+
+* [JSON linter](https://github.com/dcycle/docker-json-lint)
+* [Javascript linter (es5 and es6)](https://github.com/dcycle/docker-js-lint)
+* [CSS linter](https://github.com/dcycle/docker-css-lint)
+* [PHP linter](https://github.com/dcycle/docker-php-lint)
+* [Shell linter](https://github.com/dcycle/docker-shell-lint)
