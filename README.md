@@ -15,7 +15,13 @@ To lint these files, all you need to install on your computer or your continuous
 Getting started
 -----
 
-Install the latest version of Docker, then download this project, and run `./lint.sh`.
+Install the latest version of Docker, then download this project, and run     
+
+    ./lint.sh
+
+If you want to see what happens when you have failing code, run
+
+    ./lint.sh failing-code-examples
 
 If you want to lint your code changes using a continuous integration server such as [CircleCI](https://circleci.com), all you need is to install Docker on your CI server and run `./lint.sh` on it. See `./circle.yml` in this repo for an example.
 
